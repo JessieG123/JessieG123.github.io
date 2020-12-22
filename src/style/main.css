@@ -1,0 +1,27 @@
+@import url("font.css");
+
+h1 {
+    font-family: "jura-bold";
+}
+
+h2 {
+    font-family: "montserrat-light";
+}
+
+p {
+    font-family: "play-regular";
+}
+
+.container {
+    display: flex;
+    padding-top: 15%;
+}
+
+.intro {
+    flex: 0 0 43%;
+    padding-left: 13%;
+}
+
+.info {
+    flex: 1;
+}
