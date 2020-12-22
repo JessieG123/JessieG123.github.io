@@ -3,14 +3,16 @@
 <head>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
-    <script>
-        $("#main").load("main/main.html #main"); 
+    <script> 
+        $(function(){
+          $("#includedContent").load("main.html"); 
+        });
     </script>
 
 </head>
 
 <body>
-    <div id="main"></div>
+    <div id="includedContent"></div>
 </body>
 
 </html>
