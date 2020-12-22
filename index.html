@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link href="src/style/main.css" rel="stylesheet">
+    <!-- <link href="src/style/main.css" rel="stylesheet"> -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     
-    <script> 
+    <script>
+        $('head').append('<link rel="stylesheet" href="src/style/main.css" type="text/css" />');
+        
         $(document).ready(function(){
             $("#main").load("src/pages/main.html");
-            $("#main").load("src/style/main.css");
             $("#cpsc").load("src/pages/cpsc.html");
         });
     </script>
