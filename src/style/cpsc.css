@@ -1,2 +1,21 @@
 @import url("font.css");
+@import url("colour.css");
 
+body {
+    margin: 0;
+}
+
+h1 {
+    font-family: "montserrat-light";
+}
+
+.container {
+    display: flex;
+    min-height: 100vh;
+    background-color: var(--pale);
+}
+
+.projects {
+    padding-left: 5%;
+    padding-top: 2.5%;
+}
