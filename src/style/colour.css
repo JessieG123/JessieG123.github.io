@@ -10,7 +10,17 @@
     --brown: #9E7E88;
 
     /* dark mode colours */
-    --black: #121212;
+    --black: #1c1b22;
     --red: #CF6679;
     --pink: #F796AE;
+
+    /* Primary and secondary colours */
+    --primary: #B2DfDB;
+    --primary-light: #e5ffff;
+    --primary-dark: #82ADA9;
+
+    --secondary: #78909C;
+    --secondary-light: #A7C0CD;
+    --secondary-dark: #4B636E;
+
 }

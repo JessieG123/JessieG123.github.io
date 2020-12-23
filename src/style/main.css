@@ -8,17 +8,14 @@ body {
 
 h1 {
     font-family: "jura-bold";
-    color: var(--pink);
 }
 
 h2 {
     font-family: "montserrat-light";
-    color: var(--pink);
 }
 
 p {
     font-family: "play-regular";
-    color: var( --red);
 }
 
 .topic {
@@ -30,18 +27,18 @@ p {
 .container-main {
     display: flex;
     min-height: 100vh;
-    background-color: var(--black); /* before was light blue*/
+    background-color: var(--primary-light); /* before was light blue*/
 }
 
 .intro {
     flex: 0 0 35%;
     padding-top: 15%;
-    padding-left: 10%;
+    padding-left: 11%;
     padding-right: 5%;
 }
 
 .info {
     padding-top: 15%;
-    padding-left: 5%;
+    padding-left: 6%;
     flex: 1;
 }
