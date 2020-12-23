@@ -3,18 +3,22 @@
 
 body {
     margin: 0;
+    
 }
 
 h1 {
     font-family: "jura-bold";
+    color: var(--pink);
 }
 
 h2 {
     font-family: "montserrat-light";
+    color: var(--pink);
 }
 
 p {
     font-family: "play-regular";
+    color: var( --red);
 }
 
 .topic {
@@ -26,7 +30,7 @@ p {
 .container-main {
     display: flex;
     min-height: 100vh;
-    background-color: var(--light-blue);
+    background-color: var(--black); /* before was light blue*/
 }
 
 .intro {
