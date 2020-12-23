@@ -13,25 +13,31 @@ h2 {
     font-family: "montserrat-light";
 }
 
-.topic {
+p {
     font-family: "play-regular";
+}
+
+.topic {
+    font-family: "montserrat-regular";
     font-size: 20px;
 }
 
 /* div container fit to screen */
-.container {
+.container-main {
     display: flex;
     min-height: 100vh;
     background-color: var(--light-blue);
 }
 
 .intro {
-    flex: 0 0 43%;
+    flex: 0 0 35%;
     padding-top: 15%;
-    padding-left: 13%;
+    padding-left: 10%;
+    padding-right: 5%;
 }
 
 .info {
     padding-top: 15%;
+    padding-left: 5%;
     flex: 1;
 }

@@ -47,3 +47,8 @@
     font-family: "montserrat-light";
     src: url("../assets/fonts/Montserrat/Montserrat-Light.ttf")
 }
+
+@font-face {
+    font-family: "montserrat-extraLight";
+    src: url("../assets/fonts/Montserrat/Montserrat-ExtraLight.ttf")
+}
